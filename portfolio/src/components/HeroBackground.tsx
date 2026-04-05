@@ -9,7 +9,6 @@ export function HeroBackground() {
         className="w-full h-full absolute inset-0"
         colors={["#000000", "#1a1a1a", "#333333", "#ffffff"]}
         speed={1.0}
-        backgroundColor="#000000"
       />
       {/* Subtle lighting pulses */}
       <div className="absolute inset-0 pointer-events-none">
