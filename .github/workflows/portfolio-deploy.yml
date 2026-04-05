@@ -1,0 +1,27 @@
+name: Portfolio Build Check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'portfolio/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'portfolio/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: portfolio
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: portfolio/package-lock.json
+      - run: npm ci
+      - run: npm run build
