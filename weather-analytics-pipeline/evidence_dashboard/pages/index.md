@@ -2,9 +2,14 @@
 title: Weather Analytics Dashboard
 ---
 
-# Weather Analytics Dashboard
+# Dashboard Overview
 
 Global weather data across 8 cities — 365 days of daily observations.
+
+```sql freshness
+select max(date) as last_updated
+from weather.fct_daily_weather
+```
 
 ```sql kpis
 select
@@ -18,6 +23,8 @@ select
     round(min(temp_min_celsius), 1)        as coldest_temp
 from weather.fct_daily_weather
 ```
+
+<p>Data last updated: <Value data={freshness} value=last_updated /></p>
 
 <BigValue data={kpis} value=cities        title="Cities Tracked" />
 <BigValue data={kpis} value=total_days    title="Days of Data" />
