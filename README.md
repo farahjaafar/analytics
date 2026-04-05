@@ -44,17 +44,3 @@ analytics/
 
 Continuous integration is handled by GitHub Actions. The workflow at [`.github/workflows/ci.yml`](.github/workflows/ci.yml) runs each project's pipeline end-to-end on every push and pull request to `main`, on a daily schedule, and on manual trigger. Each project's README documents the specific steps run for that project.
 
----
-
-## Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/farahjaafar/analytics.git
-cd analytics
-
-# Navigate to the project you want to run
-cd weather-analytics-pipeline
-
-# Follow the setup instructions in the project's README
-```
