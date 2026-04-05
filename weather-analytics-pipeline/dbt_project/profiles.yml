@@ -1,0 +1,15 @@
+# ============================================================
+# Database connection settings for dbt
+# ============================================================
+# "target" sets which connection to use by default.
+# Using: "local" (DuckDB file on machine).
+# ============================================================
+
+
+weather_analytics:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: "../data/weather.duckdb"
+      threads: 4  # run up to 4 data models in parallel

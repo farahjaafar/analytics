@@ -1,0 +1,38 @@
+name: Weather Pipeline CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 6 * * *'
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        working-directory: weather-analytics-pipeline
+        run: pip install -r requirements.txt
+
+      - name: Install dbt packages
+        working-directory: weather-analytics-pipeline/dbt_project
+        run: dbt deps
+
+      - name: Extract and load data
+        working-directory: weather-analytics-pipeline
+        run: python extract/load_to_duckdb.py
+
+      - name: Run dbt build
+        working-directory: weather-analytics-pipeline/dbt_project
+        run: dbt build

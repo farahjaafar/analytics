@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Data files (don't commit raw data to git)
+data/
+*.duckdb
+*.duckdb.wal
+
+# dbt
+dbt_project/target/
+dbt_project/logs/
+dbt_project/dbt_packages/
+
+# Evidence.dev
+evidence_dashboard/node_modules/
+evidence_dashboard/.evidence/
+evidence_dashboard/build/
+
+# OS files
+.DS_Store

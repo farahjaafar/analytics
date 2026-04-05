@@ -1,0 +1,15 @@
+models:
+  - name: fct_daily_weather
+    description: "Fact table with daily weather observations enriched with city metadata and time dimensions"
+    columns:
+      - name: weather_id
+        data_tests:
+          - unique
+          - not_null
+  - name: dim_cities
+    description: "City dimension with summary statistics, one row per city"
+    columns:
+      - name: city
+        data_tests:
+          - unique
+          - not_null

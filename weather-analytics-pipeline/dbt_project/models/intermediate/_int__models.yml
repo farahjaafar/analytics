@@ -1,0 +1,16 @@
+models:
+  - name: int_weather__daily_metrics
+    description: "Daily weather enriched with temperature range, precipitation categories, seasons, and time dimensions"
+    columns:
+      - name: weather_id
+        data_tests:
+          - unique
+          - not_null
+      - name: precipitation_category
+        data_tests:
+          - accepted_values:
+              values: ['dry', 'light', 'moderate', 'heavy', 'extreme']
+      - name: season
+        data_tests:
+          - accepted_values:
+              values: ['Winter', 'Spring', 'Summer', 'Autumn']

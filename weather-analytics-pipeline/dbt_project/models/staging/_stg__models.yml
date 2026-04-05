@@ -1,0 +1,44 @@
+sources:
+  - name: raw_weather
+    description: "Raw weather data loaded from Open-Meteo API"
+    schema: raw_weather
+    tables:
+      - name: daily_weather
+        description: "Daily weather observations, one row per city per day"
+
+models:
+  - name: stg_weather__daily
+    description: "Cleaned daily weather data with renamed columns and surrogate key"
+    columns:
+      - name: weather_id
+        description: "Surrogate key (hash of city + date)"
+        data_tests:
+          - unique
+          - not_null
+      - name: city
+        data_tests:
+          - not_null
+      - name: date
+        data_tests:
+          - not_null
+      - name: temp_max_celsius
+        description: "Daily maximum temperature in Celsius"
+        data_tests:
+          - not_null
+          - temperature_range:
+              min_value: -60
+              max_value: 60
+      - name: temp_min_celsius
+        description: "Daily minimum temperature in Celsius"
+        data_tests:
+          - not_null
+          - temperature_range:
+              min_value: -60
+              max_value: 60
+      - name: temp_mean_celsius
+        description: "Daily mean temperature in Celsius"
+        data_tests:
+          - not_null
+          - temperature_range:
+              min_value: -60
+              max_value: 60

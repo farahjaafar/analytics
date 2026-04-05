@@ -1,0 +1,9 @@
+city,country_code,continent,climate_zone
+Berlin,DE,Europe,Temperate
+London,GB,Europe,Temperate
+New York,US,North America,Temperate
+Tokyo,JP,Asia,Subtropical
+Cape Town,ZA,Africa,Mediterranean
+Sydney,AU,Oceania,Subtropical
+São Paulo,BR,South America,Tropical
+Kuala Lumpur,MY,Asia,Tropical
