@@ -1,4 +1,3 @@
-import { Mail } from "lucide-react"
 import { GithubIcon, LinkedinIcon } from "@/components/icons"
 import { Button } from "@/components/ui/button"
 import { profile } from "@/lib/data"
@@ -14,15 +13,6 @@ export function Contact() {
           Contact
         </h2>
         <div className="flex flex-wrap justify-center gap-3">
-          <Button variant="outline" size="sm" asChild>
-            <a
-              href={`mailto:${profile.email}`}
-              className="flex items-center gap-2"
-            >
-              <Mail className="h-4 w-4" />
-              Email me
-            </a>
-          </Button>
           <Button variant="outline" size="sm" asChild>
             <a
               href={profile.linkedin}

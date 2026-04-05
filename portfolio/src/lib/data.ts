@@ -6,7 +6,6 @@ export const profile = {
   github: "https://github.com/farahjaafar",
   repoUrl: "https://github.com/farahjaafar/analytics",
   linkedin: "https://www.linkedin.com/in/farahjaafar/",
-  email: "farahnjaafar@gmail.com",
   location: "Berlin, Germany", // update if needed
 }
 
