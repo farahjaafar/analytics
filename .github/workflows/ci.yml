@@ -3,8 +3,12 @@ name: Weather Pipeline CI
 on:
   push:
     branches: [main]
+    paths:
+      - 'weather-analytics-pipeline/**'
   pull_request:
     branches: [main]
+    paths:
+      - 'weather-analytics-pipeline/**'
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:

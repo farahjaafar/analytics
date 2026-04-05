@@ -15,8 +15,7 @@ This is a personal analytics portfolio. Every project lives in its own subdirect
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
 | [weather-analytics-pipeline](./weather-analytics-pipeline/README.md) | End-to-end ELT pipeline ingesting global weather data, transforming it with dbt, and visualising it with an Evidence.dev dashboard | Python · DuckDB · dbt · Evidence.dev | Active |
-
-> More projects will be added to this table as the monorepo grows.
+| [portfolio](./portfolio/) | Personal portfolio website showcasing analytics engineering projects | Next.js · Tailwind · shadcn/ui · 21st.dev | Active |
 
 ---
 
@@ -26,7 +25,8 @@ This is a personal analytics portfolio. Every project lives in its own subdirect
 analytics/
 ├── .github/
 │   └── workflows/
-│       └── ci.yml                     # GitHub Actions — runs each project's pipeline
+│       ├── ci.yml                     # GitHub Actions — weather pipeline CI
+│       └── portfolio-deploy.yml       # GitHub Actions — portfolio build check
 ├── weather-analytics-pipeline/        # Project 1: Weather ELT pipeline
 │   ├── extract/                       # Python extraction scripts
 │   ├── dbt_project/                   # dbt transformation layer
@@ -35,6 +35,11 @@ analytics/
 │   ├── run_pipeline.sh                # End-to-end pipeline runner
 │   ├── requirements.txt               # Python dependencies
 │   └── README.md                      # Full project documentation
+├── portfolio/                         # Project 2: Personal portfolio website
+│   ├── src/                           # Next.js App Router source
+│   ├── public/                        # Static assets
+│   ├── vercel.json                    # Vercel deployment config
+│   └── package.json
 └── README.md                          # You are here
 ```
 

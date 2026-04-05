@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a0a0a"/>
+  <!-- Top bar -->
+  <rect width="1280" height="48" fill="#111111"/>
+  <circle cx="20" cy="24" r="7" fill="#ff5f57"/>
+  <circle cx="40" cy="24" r="7" fill="#febc2e"/>
+  <circle cx="60" cy="24" r="7" fill="#28c840"/>
+  <rect x="80" y="14" width="200" height="20" rx="4" fill="#1a1a1a"/>
+  <!-- Sidebar -->
+  <rect x="0" y="48" width="220" height="672" fill="#111111"/>
+  <rect x="12" y="68" width="196" height="32" rx="6" fill="#1e1e1e"/>
+  <rect x="24" y="120" width="120" height="12" rx="3" fill="#2a2a2a"/>
+  <rect x="24" y="148" width="140" height="12" rx="3" fill="#222222"/>
+  <rect x="24" y="172" width="100" height="12" rx="3" fill="#222222"/>
+  <rect x="24" y="196" width="130" height="12" rx="3" fill="#222222"/>
+  <!-- KPI cards -->
+  <rect x="240" y="68" width="210" height="100" rx="8" fill="#161616"/>
+  <rect x="464" y="68" width="210" height="100" rx="8" fill="#161616"/>
+  <rect x="688" y="68" width="210" height="100" rx="8" fill="#161616"/>
+  <rect x="912" y="68" width="340" height="100" rx="8" fill="#161616"/>
+  <!-- KPI values -->
+  <rect x="260" y="90" width="80" height="28" rx="4" fill="#1e6fcc" opacity="0.8"/>
+  <rect x="484" y="90" width="80" height="28" rx="4" fill="#cc7a1e" opacity="0.8"/>
+  <rect x="708" y="90" width="80" height="28" rx="4" fill="#1ecc7a" opacity="0.8"/>
+  <rect x="932" y="90" width="80" height="28" rx="4" fill="#cc1e6f" opacity="0.8"/>
+  <!-- Main chart -->
+  <rect x="240" y="186" width="680" height="280" rx="8" fill="#161616"/>
+  <polyline points="280,420 340,380 400,390 460,340 520,350 580,300 640,310 660,280 720,290 780,260 840,270 870,240" stroke="#1e6fcc" stroke-width="2.5" fill="none" opacity="0.9"/>
+  <polyline points="280,440 340,410 400,430 460,400 520,420 580,390 640,400 660,380 720,390 780,370 840,380 870,360" stroke="#cc7a1e" stroke-width="2.5" fill="none" opacity="0.9"/>
+  <polyline points="280,460 340,450 400,445 460,430 520,440 580,420 640,435 660,410 720,420 780,400 840,415 870,395" stroke="#1ecc7a" stroke-width="2.5" fill="none" opacity="0.9"/>
+  <!-- Chart grid lines -->
+  <line x1="280" y1="240" x2="880" y2="240" stroke="#1f1f1f" stroke-width="1"/>
+  <line x1="280" y1="300" x2="880" y2="300" stroke="#1f1f1f" stroke-width="1"/>
+  <line x1="280" y1="360" x2="880" y2="360" stroke="#1f1f1f" stroke-width="1"/>
+  <line x1="280" y1="420" x2="880" y2="420" stroke="#1f1f1f" stroke-width="1"/>
+  <!-- Bar chart -->
+  <rect x="940" y="186" width="312" height="280" rx="8" fill="#161616"/>
+  <rect x="960" y="320" width="30" height="126" rx="2" fill="#1e6fcc" opacity="0.8"/>
+  <rect x="1000" y="290" width="30" height="156" rx="2" fill="#cc7a1e" opacity="0.8"/>
+  <rect x="1040" y="340" width="30" height="106" rx="2" fill="#1ecc7a" opacity="0.8"/>
+  <rect x="1080" y="300" width="30" height="146" rx="2" fill="#cc1e6f" opacity="0.8"/>
+  <rect x="1120" y="260" width="30" height="186" rx="2" fill="#7a1ecc" opacity="0.8"/>
+  <rect x="1160" y="310" width="30" height="136" rx="2" fill="#1eccc2" opacity="0.8"/>
+  <!-- Data table -->
+  <rect x="240" y="484" width="1012" height="220" rx="8" fill="#161616"/>
+  <rect x="240" y="484" width="1012" height="40" rx="8" fill="#1a1a1a"/>
+  <rect x="260" y="500" width="80" height="10" rx="2" fill="#2a2a2a"/>
+  <rect x="400" y="500" width="80" height="10" rx="2" fill="#2a2a2a"/>
+  <rect x="540" y="500" width="60" height="10" rx="2" fill="#2a2a2a"/>
+  <rect x="660" y="500" width="60" height="10" rx="2" fill="#2a2a2a"/>
+  <rect x="780" y="500" width="60" height="10" rx="2" fill="#2a2a2a"/>
+  <!-- Table rows -->
+  <rect x="260" y="540" width="70" height="8" rx="2" fill="#222222"/>
+  <rect x="400" y="540" width="50" height="8" rx="2" fill="#1e6fcc" opacity="0.6"/>
+  <rect x="540" y="540" width="40" height="8" rx="2" fill="#222222"/>
+  <rect x="660" y="540" width="40" height="8" rx="2" fill="#222222"/>
+  <rect x="260" y="564" width="55" height="8" rx="2" fill="#222222"/>
+  <rect x="400" y="564" width="50" height="8" rx="2" fill="#cc7a1e" opacity="0.6"/>
+  <rect x="540" y="564" width="40" height="8" rx="2" fill="#222222"/>
+  <rect x="660" y="564" width="40" height="8" rx="2" fill="#222222"/>
+  <rect x="260" y="588" width="65" height="8" rx="2" fill="#222222"/>
+  <rect x="400" y="588" width="50" height="8" rx="2" fill="#1ecc7a" opacity="0.6"/>
+  <rect x="540" y="588" width="40" height="8" rx="2" fill="#222222"/>
+  <rect x="660" y="588" width="40" height="8" rx="2" fill="#222222"/>
+  <rect x="260" y="612" width="60" height="8" rx="2" fill="#222222"/>
+  <rect x="400" y="612" width="50" height="8" rx="2" fill="#7a1ecc" opacity="0.6"/>
+  <rect x="540" y="612" width="40" height="8" rx="2" fill="#222222"/>
+  <rect x="660" y="612" width="40" height="8" rx="2" fill="#222222"/>
+  <!-- Label -->
+  <text x="640" y="700" font-family="system-ui, sans-serif" font-size="13" fill="#333333" text-anchor="middle">Weather Analytics Dashboard · Evidence.dev · Replace with real screenshot</text>
+</svg>
