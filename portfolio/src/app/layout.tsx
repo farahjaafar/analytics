@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Farah Jaafar — Analytics Engineer",
+  title: "Farah Jaafar",
   description:
     "Portfolio of data engineering and analytics projects. Featuring a weather analytics pipeline built with Python, DuckDB, dbt, and Evidence.dev.",
   openGraph: {
-    title: "Farah Jaafar — Analytics Engineer",
+    title: "Farah Jaafar",
     description:
       "End-to-end data pipelines, dbt transformations, and Evidence.dev dashboards.",
     type: "website",
