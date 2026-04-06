@@ -18,7 +18,7 @@ export const projects = [
     tags: ["Python", "DuckDB", "dbt", "Evidence.dev", "GitHub Actions"],
     githubUrl:
       "https://github.com/farahjaafar/analytics/tree/main/weather-analytics-pipeline",
-    liveUrl: "https://weather-dashboard-ocnd7e3fb-farahjaafars-projects.vercel.app/",
+    liveUrl: "https://analytics-one-sable.vercel.app/",
     stats: [
       { label: "Cities tracked", value: "8" },
       { label: "Days of history", value: "365" },
