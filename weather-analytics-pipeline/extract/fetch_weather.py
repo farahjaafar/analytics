@@ -18,12 +18,32 @@ USAGE:
 import requests
 import sys
 from datetime import datetime, timedelta
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from config import (
     CITIES,
     DAILY_VARIABLES,
     ARCHIVE_API_URL,
     HISTORICAL_DAYS,
 )
+
+
+def _build_session() -> requests.Session:
+    """
+    Create a requests Session with automatic retries on transient errors.
+    Retries up to 3 times with exponential backoff (2s, 4s, 8s) on
+    connection errors, timeouts, and 5xx responses.
+    """
+    session = requests.Session()
+    retry = Retry(
+        total=3,
+        backoff_factor=2,
+        status_forcelist=[500, 502, 503, 504],
+        allowed_methods=["GET"],
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session.mount("https://", adapter)
+    return session
 
 
 def fetch_weather_for_city(
@@ -100,8 +120,9 @@ def fetch_weather_for_city(
 
     print(f"  Fetching data for {city_name} ({start_date} to {end_date})...")
 
-    # Make the HTTP GET request to Open-Meteo
-    response = requests.get(ARCHIVE_API_URL, params=params, timeout=30)
+    # Make the HTTP GET request to Open-Meteo (with retry session)
+    session = _build_session()
+    response = session.get(ARCHIVE_API_URL, params=params, timeout=60)
 
     # If the API returns an error, raise an exception immediately
     # instead of silently continuing with bad data
