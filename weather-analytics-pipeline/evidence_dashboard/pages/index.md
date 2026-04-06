@@ -74,7 +74,7 @@ select
     coldest_temp_celsius,
     hottest_temp_celsius,
     avg_humidity_pct / 100   as avg_humidity_pct,
-    pct_rainy_days / 100     as pct_rainy_days,
+    pct_rainy_days / 100     as rainy_days_pct,
     avg_wind_max_kmh
 from weather.dim_cities
 order by avg_temp_celsius desc
@@ -94,7 +94,7 @@ order by avg_temp_celsius desc
 
 <BarChart data={city_summary} x=city y=avg_humidity_pct title="Average Humidity by City" yAxisTitle="%" />
 
-<BarChart data={city_summary} x=city y=pct_rainy_days title="% Rainy Days by City" yAxisTitle="%" />
+<BarChart data={city_summary} x=city y=rainy_days_pct title="% Rainy Days by City" yAxisTitle="%" />
 
 ---
 
