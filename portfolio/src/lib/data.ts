@@ -14,7 +14,7 @@ export const projects = [
     id: "weather-analytics-pipeline",
     title: "Weather Analytics Pipeline",
     description:
-      "End-to-end ELT pipeline ingesting global weather data for selected cities across multiple continents. Python extracts from the Open-Meteo API into DuckDB; dbt handles 3-layer transformation (staging → intermediate → marts); Evidence.dev renders interactive dashboards. Automated daily via GitHub Actions.",
+      "End-to-end ELT pipeline ingesting global weather data for selected cities across multiple continents.",
     tags: ["Python", "DuckDB", "dbt", "Evidence.dev", "GitHub Actions"],
     githubUrl:
       "https://github.com/farahjaafar/analytics/tree/main/weather-analytics-pipeline",
@@ -26,6 +26,18 @@ export const projects = [
       { label: "CI status", value: "Passing" },
     ],
     featured: true,
+  },
+]
+
+export const sideProjects = [
+  {
+    id: "retro-crisp",
+    title: "Classic Games Website",
+    description:
+      "A side project for anyone who wants to play classic arcade games. No sign-up, no ads — just pick a game and play. High scores are saved locally in your browser.",
+    tags: ["Fox Jump", "Snake", "Block Drop"],
+    liveUrl: "https://retro-crisp.pages.dev/",
+    githubUrl: "https://github.com/farahjaafar/retro-crisp",
   },
 ]
 
