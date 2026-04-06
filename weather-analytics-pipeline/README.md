@@ -144,6 +144,7 @@ weather-analytics-pipeline/
 | Sydney | Australia | Oceania | Humid Subtropical |
 | São Paulo | Brazil | South America | Tropical |
 | Kuala Lumpur | Malaysia | Asia | Tropical Rainforest |
+| Auckland | New Zealand | Oceania | Temperate Oceanic |
 
 ---
 
