@@ -21,6 +21,14 @@ export function Projects() {
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
 
+        {/* Section header */}
+        <div className="mb-10 flex items-center gap-4">
+          <div className="flex flex-col gap-1">
+            <h2 className="text-2xl font-bold tracking-tight">Analytics Projects</h2>
+          </div>
+          <div className="h-px flex-1 bg-border/60" />
+        </div>
+
         <div className="grid gap-6 lg:grid-cols-2">
           {projects.map((project) => (
             <article

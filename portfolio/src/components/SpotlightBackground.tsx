@@ -43,8 +43,8 @@ export function SpotlightBackground() {
           height: isMoving ? "220px" : "280px",
           transform: "translate(-50%, -50%)",
           background: isDark
-            ? "radial-gradient(circle, rgba(56,189,248,0.7) 0%, transparent 70%)"
-            : "radial-gradient(circle, rgba(99,102,241,0.35) 0%, transparent 70%)",
+            ? "radial-gradient(circle, rgba(255,218,61,0.5) 0%, transparent 70%)"
+            : "radial-gradient(circle, rgba(245,158,11,0.2) 0%, transparent 70%)",
           mixBlendMode: isDark ? "screen" : "multiply",
         }}
       />

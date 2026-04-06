@@ -18,11 +18,11 @@ export function Hero() {
         <h1
           className={cn(
             "animate-appear [animation-fill-mode:both]",
-            "bg-gradient-to-b from-foreground via-foreground/90 to-muted-foreground",
-            "bg-clip-text text-transparent",
-            "text-5xl font-bold tracking-tight sm:text-6xl md:text-7xl lg:text-8xl",
-            "leading-[1.1]",
+            "text-5xl sm:text-6xl md:text-7xl lg:text-8xl",
+            "leading-[1.1] tracking-tight",
+            "text-foreground",
           )}
+          style={{ fontFamily: '"Geller Headline", serif', fontWeight: 400 }}
         >
           {profile.name}
         </h1>
