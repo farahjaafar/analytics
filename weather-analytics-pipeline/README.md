@@ -13,9 +13,9 @@ An end-to-end ELT pipeline that ingests historical and recent weather data for 8
 | Attribute | Detail |
 |-----------|--------|
 | **Data source** | [Open-Meteo API](https://open-meteo.com/) — free, no API key required |
-| **Cities** | 8 cities across 6 continents |
+| **Cities** | Selected cities across multiple continents |
 | **Date range** | Rolling 365 days |
-| **Row count** | ~2,920 rows (8 cities × 365 days) |
+| **Row count** | ~365 rows per city |
 | **Warehouse** | DuckDB (local file) |
 | **Transformation** | dbt Core (3-layer architecture) |
 | **Dashboard** | Evidence.dev (markdown + SQL) |
@@ -32,7 +32,7 @@ This project is a portfolio piece demonstrating analytics engineering best pract
 │  EXTRACT                                            │
 │  Open-Meteo API (historical + forecast endpoints)   │
 │       ↓  fetch_weather.py  (requests)               │
-│  8 cities × 365 days  →  list of row dicts          │
+│  Selected cities × 365 days  →  list of row dicts   │
 └─────────────────────────────────────────────────────┘
                       ↓
 ┌─────────────────────────────────────────────────────┐
@@ -258,7 +258,7 @@ from weather.fct_daily_weather
 Displays: cities tracked, days of data, global average temperature, average humidity, number of climate zones, average daylight hours, record high and record low temperatures.
 
 **2. Temperature Trends (LineChart)**
-Multi-series line chart showing `temp_mean_celsius` over time for all 8 cities. X-axis: date; Y-axis: °C.
+Multi-series line chart showing `temp_mean_celsius` over time for all cities. X-axis: date; Y-axis: °C.
 
 **3. City Overview (DataTable + 3 BarCharts)**
 - DataTable: all city statistics from `dim_cities`, sorted by `avg_temp_celsius` descending
