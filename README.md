@@ -1,3 +1,6 @@
+Link to dashboard: [farahjaafar.com ](https://www.farahjaafar.com/)
+---
+
 # Analytics
 
 A monorepo housing analytics engineering projects — each project demonstrates a different aspect of the modern data stack, from ingestion and transformation to visualisation and CI/CD.
