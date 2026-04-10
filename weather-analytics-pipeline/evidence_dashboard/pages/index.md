@@ -134,5 +134,5 @@ order by avg_temp desc
 
 ---
 
-Weather data is sourced from the [Open-Meteo API](https://open-meteo.com/)
+<small>*&#8505; Weather data is sourced from the [Open-Meteo API](https://open-meteo.com/)*</small>
 
