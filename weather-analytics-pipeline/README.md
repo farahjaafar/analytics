@@ -357,6 +357,29 @@ Defined in `.env` (copy from `.env.example`):
 
 ---
 
+## Deployment
+
+The Evidence.dev dashboard is deployed to [Vercel](https://vercel.com/) and updates automatically whenever the CI pipeline pushes new CSV data to the repository.
+
+### How it works
+
+1. GitHub Actions runs the pipeline daily at 06:00 UTC
+2. The updated `fct_daily_weather.csv` and `dim_cities.csv` files are committed back to the repo
+3. Vercel detects the new commit and triggers a fresh build of the Evidence.dev dashboard
+4. The live dashboard reflects the latest data within minutes
+
+### Setting it up (one-time)
+
+1. Push the repository to GitHub
+2. Go to [vercel.com](https://vercel.com/) and import the repository
+3. Set the **Root Directory** to `weather-analytics-pipeline/evidence_dashboard`
+4. Vercel auto-detects Evidence.dev — no build configuration needed
+5. Deploy — Vercel provides a public URL for the dashboard
+
+From that point on, every commit to `main` triggers a redeployment automatically.
+
+---
+
 ## CI/CD
 
 File: [`.github/workflows/ci.yml`](../.github/workflows/ci.yml)
