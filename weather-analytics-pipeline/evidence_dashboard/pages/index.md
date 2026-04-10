@@ -98,6 +98,25 @@ order by avg_temp_celsius desc
 
 ---
 
+## Wind Speed Trends Over Time
+
+```sql wind_trends
+select date, city, wind_max_kmh
+from weather.fct_daily_weather
+order by date
+```
+
+<LineChart
+    data={wind_trends}
+    x=date
+    y=wind_max_kmh
+    series=city
+    title="Max Wind Speed by City"
+    yAxisTitle="km/h"
+/>
+
+---
+
 ## Seasonal Patterns
 
 > **Note:** Seasonal patterns reflect temperate climates with 4 distinct seasons. Cities in tropical or arid climates experience little seasonal variation. Use the filter below to choose which cities to include.
