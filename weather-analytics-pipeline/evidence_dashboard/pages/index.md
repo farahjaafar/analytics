@@ -130,3 +130,9 @@ order by avg_temp desc
 
 <BarChart data={seasonal} x=season y=avg_temp      title="Average Temperature by Season" yAxisTitle="°C" />
 <BarChart data={seasonal} x=season y=avg_precip_mm title="Average Precipitation by Season" yAxisTitle="mm" />
+
+
+---
+
+Weather data is sourced from the [Open-Meteo API](https://open-meteo.com/)
+
