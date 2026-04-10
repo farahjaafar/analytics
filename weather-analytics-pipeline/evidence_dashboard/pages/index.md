@@ -101,7 +101,14 @@ order by avg_temp_celsius desc
 ## Wind Speed Trends Over Time
 
 ```sql wind_trends
-select date, city, wind_max_kmh
+select
+    date,
+    city,
+    round(avg(wind_max_kmh) over (
+        partition by city
+        order by date
+        rows between 29 preceding and current row
+    ), 1) as rolling_avg_wind_kmh
 from weather.fct_daily_weather
 order by date
 ```
@@ -109,9 +116,9 @@ order by date
 <LineChart
     data={wind_trends}
     x=date
-    y=wind_max_kmh
+    y=rolling_avg_wind_kmh
     series=city
-    title="Max Wind Speed by City"
+    title="30-Day Rolling Avg Wind Speed by City"
     yAxisTitle="km/h"
 />
 
