@@ -1,5 +1,4 @@
 weather_id,city,country_code,date,continent,climate_zone,year,month_number,month_name,day_of_week,season,temp_max_celsius,temp_min_celsius,temp_mean_celsius,temp_range_celsius,precipitation_mm,rain_mm,snowfall_mm,precipitation_category,is_rainy_day,wind_max_kmh,humidity_pct,daylight_hours
-a7183260ae30cd1cf9caeba51c9dcf66,Berlin,DE,2025-04-29,Europe,Temperate,2025,4,April,Tuesday,Spring,22.8,8.6,15.9,14.2,0.0,0.0,0.0,dry,False,15.0,51.0,14.85
 8fe9933f927fcaa8ca439b6e10f2902e,Berlin,DE,2025-04-30,Europe,Temperate,2025,4,April,Wednesday,Spring,22.6,9.5,16.8,13.1,0.0,0.0,0.0,dry,False,10.7,60.0,14.92
 62f8ee083e7f5a9a318e5f4e42eaf758,Berlin,DE,2025-05-01,Europe,Temperate,2025,5,May,Thursday,Spring,25.9,9.5,18.6,16.4,0.0,0.0,0.0,dry,False,8.5,50.0,14.98
 f3a236d2f1c676f27978e6defdd5e510,Berlin,DE,2025-05-02,Europe,Temperate,2025,5,May,Friday,Spring,27.5,13.6,20.5,13.9,0.6,0.6,0.0,light,True,26.5,45.0,15.04
@@ -364,7 +363,7 @@ bc775f9ece585d12653536fad8d8ed8a,Berlin,DE,2026-04-22,Europe,Temperate,2026,4,Ap
 5301fb2c38e36a2cdda6d8a7e388bbe9,Berlin,DE,2026-04-26,Europe,Temperate,2026,4,April,Sunday,Spring,13.4,3.9,9.0,9.5,0.0,0.0,0.0,dry,False,18.9,53.0,14.65
 07b295028ad90305fc6f4090ad83784f,Berlin,DE,2026-04-27,Europe,Temperate,2026,4,April,Monday,Spring,16.3,3.3,10.4,13.0,0.0,0.0,0.0,dry,False,13.6,47.0,14.72
 a82ab13d5e9500d26f9e6d40ffd3b4f8,Berlin,DE,2026-04-28,Europe,Temperate,2026,4,April,Tuesday,Spring,15.1,4.4,10.0,10.7,0.0,0.0,0.0,dry,False,16.4,36.0,14.78
-d11193e4d8465e81fe81cd91f4b7508c,London,GB,2025-04-29,Europe,Temperate,2025,4,April,Tuesday,Spring,23.0,10.6,16.9,12.4,0.0,0.0,0.0,dry,False,12.3,47.0,14.75
+628946136d4cb60cdebb8fe4ee985314,Berlin,DE,2026-04-29,Europe,Temperate,2026,4,April,Wednesday,Spring,14.4,3.6,9.4,10.8,0.0,0.0,0.0,dry,False,13.3,36.0,14.84
 4673b40b93a4331cee1a0a0696fa47a8,London,GB,2025-04-30,Europe,Temperate,2025,4,April,Wednesday,Spring,25.9,9.6,17.8,16.3,0.0,0.0,0.0,dry,False,12.4,54.0,14.81
 5b2b03d51ead4f7e385f7b8a1f72ebcf,London,GB,2025-05-01,Europe,Temperate,2025,5,May,Thursday,Spring,28.5,11.8,20.7,16.7,0.0,0.0,0.0,dry,False,11.8,47.0,14.87
 b7d07e2252948314a83a93b0d99d324d,London,GB,2025-05-02,Europe,Temperate,2025,5,May,Friday,Spring,25.4,14.8,19.7,10.6,1.5,1.5,0.0,light,True,11.8,55.0,14.93
@@ -729,7 +728,7 @@ a2e16516c0e07f0b3089c7e5a05fe211,London,GB,2026-04-21,Europe,Temperate,2026,4,Ap
 aabecd1d5bcbcdbeb5ef35127b84b49a,London,GB,2026-04-26,Europe,Temperate,2026,4,April,Sunday,Spring,19.5,7.5,13.5,12.0,0.0,0.0,0.0,dry,False,11.6,56.0,14.55
 a4bfc26ef53d2bc8439e631340e1c52c,London,GB,2026-04-27,Europe,Temperate,2026,4,April,Monday,Spring,21.6,7.9,14.5,13.7,0.6,0.6,0.0,light,True,13.4,57.0,14.62
 42e25bd0b68480870322b0a411a19113,London,GB,2026-04-28,Europe,Temperate,2026,4,April,Tuesday,Spring,17.4,9.1,12.3,8.3,0.4,0.4,0.0,light,True,23.4,60.0,14.68
-a8bbfa1f81b8b0ce7c0c3bcd3843eb8d,New York,US,2025-04-29,North America,Temperate,2025,4,April,Tuesday,Spring,27.1,11.1,19.5,16.0,0.0,0.0,0.0,dry,False,19.3,47.0,13.9
+05012d1efbd52f9c810bc477af050f9b,London,GB,2026-04-29,Europe,Temperate,2026,4,April,Wednesday,Spring,17.9,8.4,13.2,9.5,0.0,0.0,0.0,dry,False,25.6,49.0,14.74
 fb5a1f4880a19418ba7127a0c494ac0d,New York,US,2025-04-30,North America,Temperate,2025,4,April,Wednesday,Spring,22.8,16.4,20.4,6.4,0.0,0.0,0.0,dry,False,17.9,44.0,13.93
 7b7153f24766577082ae0637a71ea93d,New York,US,2025-05-01,North America,Temperate,2025,5,May,Thursday,Spring,21.2,10.2,15.7,11.0,0.0,0.0,0.0,dry,False,14.6,43.0,13.97
 0c8679e5b38740748dda5f82dda2a57d,New York,US,2025-05-02,North America,Temperate,2025,5,May,Friday,Spring,30.1,14.2,21.9,15.9,0.0,0.0,0.0,dry,False,16.0,63.0,14.01
@@ -1094,7 +1093,7 @@ f315d7ba6dfa22fab7e90676866fe3a6,New York,US,2026-04-25,North America,Temperate,
 19f1938b4fe591db091d32ac47961730,New York,US,2026-04-26,North America,Temperate,2026,4,April,Sunday,Spring,13.9,5.4,8.7,8.5,5.0,5.0,0.0,moderate,True,17.7,78.0,13.77
 2dbb70613e3690e192104b2922ad393b,New York,US,2026-04-27,North America,Temperate,2026,4,April,Monday,Spring,19.5,5.6,11.8,13.9,0.0,0.0,0.0,dry,False,10.2,65.0,13.81
 316a7aa40721f29913d464bfd3b94b3f,New York,US,2026-04-28,North America,Temperate,2026,4,April,Tuesday,Spring,18.1,7.0,12.3,11.1,0.0,0.0,0.0,dry,False,9.3,57.0,13.85
-533337cb9dcc743159a091f6b16d0aaa,Tokyo,JP,2025-04-29,Asia,Subtropical,2025,4,April,Tuesday,Spring,21.9,12.1,16.4,9.8,3.1,3.1,0.0,moderate,True,16.0,60.0,13.57
+58f21952b779baa2410fb76a39f9ac51,New York,US,2026-04-29,North America,Temperate,2026,4,April,Wednesday,Spring,16.9,9.5,12.2,7.4,2.4,2.4,0.0,light,True,14.8,66.0,13.89
 6ce4a1cfd012ce278c1a5c5118f62020,Tokyo,JP,2025-04-30,Asia,Subtropical,2025,4,April,Wednesday,Spring,21.7,9.7,15.9,12.0,0.0,0.0,0.0,dry,False,13.5,54.0,13.61
 37c6c1b35b39f04a1a29f28ec23a2fc7,Tokyo,JP,2025-05-01,Asia,Subtropical,2025,5,May,Thursday,Spring,23.0,11.1,17.4,11.9,0.0,0.0,0.0,dry,False,19.0,69.0,13.64
 ebbb95a36cfef78ddf733660c172a8f7,Tokyo,JP,2025-05-02,Asia,Subtropical,2025,5,May,Friday,Spring,18.9,14.4,16.0,4.5,80.8,80.8,0.0,heavy,True,28.0,84.0,13.67
@@ -1459,7 +1458,7 @@ e817ecee91206c8c3d6777dcb2543ad6,Tokyo,JP,2026-04-25,Asia,Subtropical,2026,4,Apr
 e19019e5eed8458f795443b0ca8d9d30,Tokyo,JP,2026-04-26,Asia,Subtropical,2026,4,April,Sunday,Spring,20.3,9.2,15.3,11.1,0.0,0.0,0.0,dry,False,11.9,70.0,13.47
 71e5792627995022c9d2dc8e784548e8,Tokyo,JP,2026-04-27,Asia,Subtropical,2026,4,April,Monday,Spring,21.6,11.8,15.8,9.8,37.6,37.6,0.0,heavy,True,21.2,80.0,13.5
 6286d9a9fdb01f7c0819683b95003e1a,Tokyo,JP,2026-04-28,Asia,Subtropical,2026,4,April,Tuesday,Spring,22.5,10.5,17.9,12.0,0.0,0.0,0.0,dry,False,17.9,75.0,13.53
-12c4a1e784a8903514eadf85948e351a,Cape Town,ZA,2025-04-29,Africa,Mediterranean,2025,4,April,Tuesday,Autumn,20.4,12.4,16.1,8.0,0.2,0.2,0.0,light,True,17.7,85.0,10.79
+dd0067426f0a419ad91deeccdc1cd8a8,Tokyo,JP,2026-04-29,Asia,Subtropical,2026,4,April,Wednesday,Spring,18.5,14.2,16.4,4.3,7.1,7.1,0.0,moderate,True,10.3,86.0,13.57
 db1e77684f9802760ce9c5918c81a737,Cape Town,ZA,2025-04-30,Africa,Mediterranean,2025,4,April,Wednesday,Autumn,18.1,13.5,15.5,4.6,0.3,0.3,0.0,light,True,17.7,75.0,10.76
 156172a1640f66335069d9ee481d681b,Cape Town,ZA,2025-05-01,Africa,Mediterranean,2025,5,May,Thursday,Autumn,15.9,11.6,13.8,4.3,1.4,1.4,0.0,light,True,21.5,72.0,10.73
 7ef30de8aae85f828fbd284459ab66dc,Cape Town,ZA,2025-05-02,Africa,Mediterranean,2025,5,May,Friday,Autumn,17.0,8.6,12.9,8.4,0.3,0.3,0.0,light,True,12.8,71.0,10.7
@@ -1824,7 +1823,7 @@ faa557acc06603dc365ac10452b1978d,Cape Town,ZA,2026-04-25,Africa,Mediterranean,20
 b6602a458f82f088b103f3b24042c871,Cape Town,ZA,2026-04-26,Africa,Mediterranean,2026,4,April,Sunday,Autumn,15.0,12.5,14.0,2.5,16.1,16.1,0.0,heavy,True,24.8,90.0,10.89
 d52de77c73976d3ae05949774e6ab408,Cape Town,ZA,2026-04-27,Africa,Mediterranean,2026,4,April,Monday,Autumn,16.7,11.3,13.5,5.4,0.9,0.9,0.0,light,True,16.8,67.0,10.86
 b0e05c7fc9eff86ee22e2d6241bb0c48,Cape Town,ZA,2026-04-28,Africa,Mediterranean,2026,4,April,Tuesday,Autumn,17.9,9.5,13.2,8.4,0.1,0.1,0.0,light,True,15.8,77.0,10.83
-aabd759d678ec64bc938cd3fd907c35a,Sydney,AU,2025-04-29,Oceania,Subtropical,2025,4,April,Tuesday,Autumn,20.6,14.4,17.1,6.2,4.1,4.1,0.0,moderate,True,14.1,90.0,10.81
+41eaf6dd3e3ea3fba68795335e629bd4,Cape Town,ZA,2026-04-29,Africa,Mediterranean,2026,4,April,Wednesday,Autumn,19.3,11.6,15.0,7.7,0.0,0.0,0.0,dry,False,17.3,76.0,10.8
 21d8c17ae693af8fdd8e3c06927c4873,Sydney,AU,2025-04-30,Oceania,Subtropical,2025,4,April,Wednesday,Autumn,17.3,13.1,15.4,4.2,14.4,14.4,0.0,heavy,True,24.5,86.0,10.78
 a0e9108c5c3ff061146dcadb8291e935,Sydney,AU,2025-05-01,Oceania,Subtropical,2025,5,May,Thursday,Autumn,18.2,12.8,15.0,5.4,8.2,8.2,0.0,heavy,True,25.3,76.0,10.75
 61de725abffa2defc86f266772663296,Sydney,AU,2025-05-02,Oceania,Subtropical,2025,5,May,Friday,Autumn,18.1,12.7,15.5,5.4,7.8,7.8,0.0,heavy,True,17.3,84.0,10.72
@@ -2189,7 +2188,7 @@ d1928969089f44c00d2789c2af948dde,Sydney,AU,2026-04-25,Oceania,Subtropical,2026,4
 01f11f8768a3bdfd539402f07301e61d,Sydney,AU,2026-04-26,Oceania,Subtropical,2026,4,April,Sunday,Autumn,23.1,12.6,17.5,10.5,0.0,0.0,0.0,dry,False,14.8,71.0,10.91
 237e9793fb41f5d90e3945bb3b1bf516,Sydney,AU,2026-04-27,Oceania,Subtropical,2026,4,April,Monday,Autumn,22.9,11.2,16.8,11.7,0.0,0.0,0.0,dry,False,11.8,75.0,10.87
 3c4887349e07ccbd7b06bbfc129752a2,Sydney,AU,2026-04-28,Oceania,Subtropical,2026,4,April,Tuesday,Autumn,22.8,12.3,17.3,10.5,0.0,0.0,0.0,dry,False,12.3,74.0,10.84
-9d4695fb39e5438393fb98839441a865,São Paulo,BR,2025-04-29,South America,Tropical,2025,4,April,Tuesday,Autumn,22.1,15.7,18.1,6.4,0.3,0.3,0.0,light,True,11.2,83.0,11.25
+5e2dccb25e2b04cb6a66587b63a81c09,Sydney,AU,2026-04-29,Oceania,Subtropical,2026,4,April,Wednesday,Autumn,23.1,11.8,17.4,11.3,0.0,0.0,0.0,dry,False,11.5,80.0,10.81
 c47ec2169434aa362dc10e07f37f17da,São Paulo,BR,2025-04-30,South America,Tropical,2025,4,April,Wednesday,Autumn,21.6,14.3,16.8,7.3,0.0,0.0,0.0,dry,False,12.4,81.0,11.23
 c72cc3b6f58a53fb3a51475d6728d02c,São Paulo,BR,2025-05-01,South America,Tropical,2025,5,May,Thursday,Autumn,22.4,13.2,16.7,9.2,0.0,0.0,0.0,dry,False,11.8,83.0,11.22
 8f9de6199db62f65bd694cef64c2d1cc,São Paulo,BR,2025-05-02,South America,Tropical,2025,5,May,Friday,Autumn,23.5,14.3,17.8,9.2,0.0,0.0,0.0,dry,False,10.1,81.0,11.2
@@ -2554,7 +2553,7 @@ cd38ce15d36bad13277044e480b9f538,São Paulo,BR,2026-04-23,South America,Tropical
 dfcc19fa3634e140ecd29d1368044331,São Paulo,BR,2026-04-26,South America,Tropical,2026,4,April,Sunday,Autumn,29.9,18.8,24.7,11.1,0.0,0.0,0.0,dry,False,17.1,57.0,11.32
 4a6049eaa04adaeb877688bc349d6092,São Paulo,BR,2026-04-27,South America,Tropical,2026,4,April,Monday,Autumn,27.8,20.0,23.0,7.8,14.3,14.3,0.0,heavy,True,16.2,71.0,11.3
 df3ca5bbd85c395ea4f06c3b13c5e39b,São Paulo,BR,2026-04-28,South America,Tropical,2026,4,April,Tuesday,Autumn,27.0,19.1,21.4,7.9,12.2,12.2,0.0,heavy,True,10.6,86.0,11.28
-dbda47f821837c85fb5df582fe646b1c,Kuala Lumpur,MY,2025-04-29,Asia,Tropical,2025,4,April,Tuesday,Spring,33.2,22.5,27.3,10.7,2.6,2.6,0.0,moderate,True,8.1,81.0,12.22
+f6f06228d34b33b431b62c3fe620f0fd,São Paulo,BR,2026-04-29,South America,Tropical,2026,4,April,Wednesday,Autumn,28.5,17.7,21.3,10.8,15.4,15.4,0.0,heavy,True,13.7,87.0,11.26
 f71d81e338cd15842be4da8e96c4b2f7,Kuala Lumpur,MY,2025-04-30,Asia,Tropical,2025,4,April,Wednesday,Spring,31.7,23.7,26.9,8.0,6.2,6.2,0.0,moderate,True,8.5,85.0,12.23
 4fa8b9140cff84a0b0c0b310b816be08,Kuala Lumpur,MY,2025-05-01,Asia,Tropical,2025,5,May,Thursday,Spring,30.1,23.9,26.9,6.2,7.2,7.2,0.0,moderate,True,7.7,85.0,12.23
 ad327bd844a81e6d36e889e0a12e5902,Kuala Lumpur,MY,2025-05-02,Asia,Tropical,2025,5,May,Friday,Spring,32.5,23.9,27.4,8.6,5.9,5.9,0.0,moderate,True,12.3,86.0,12.23
@@ -2919,7 +2918,7 @@ b5bb32213991dbc90b4ec4be7cf4be3e,Kuala Lumpur,MY,2026-04-23,Asia,Tropical,2026,4
 337973e332eb0f855c874059576d691c,Kuala Lumpur,MY,2026-04-26,Asia,Tropical,2026,4,April,Sunday,Spring,35.2,24.0,28.9,11.2,0.8,0.8,0.0,light,True,10.4,76.0,12.21
 325616669d71e717afd95a5b78135858,Kuala Lumpur,MY,2026-04-27,Asia,Tropical,2026,4,April,Monday,Spring,37.3,24.7,30.0,12.6,1.0,1.0,0.0,light,True,12.8,70.0,12.22
 0ab8eac814720cec044eeaffe3272083,Kuala Lumpur,MY,2026-04-28,Asia,Tropical,2026,4,April,Tuesday,Spring,37.3,24.9,30.1,12.4,0.3,0.3,0.0,light,True,8.9,69.0,12.22
-4b687639abe4a0057fbbaf8b16ab1c12,Auckland,NZ,2025-04-29,Oceania,Temperate Oceanic,2025,4,April,Tuesday,Autumn,20.6,18.2,19.2,2.4,16.5,16.5,0.0,heavy,True,32.0,87.0,10.66
+f6d7a899126794da1f6b491fe72a8332,Kuala Lumpur,MY,2026-04-29,Asia,Tropical,2026,4,April,Wednesday,Spring,36.7,24.5,29.4,12.2,2.9,2.9,0.0,moderate,True,10.0,72.0,12.22
 0307fe136373a9656a7e3276915dc78f,Auckland,NZ,2025-04-30,Oceania,Temperate Oceanic,2025,4,April,Wednesday,Autumn,20.5,17.5,18.8,3.0,10.5,10.5,0.0,heavy,True,30.3,89.0,10.62
 a2e1dad891d28bdb54c6d3f0611d8fe5,Auckland,NZ,2025-05-01,Oceania,Temperate Oceanic,2025,5,May,Thursday,Autumn,18.3,15.5,17.1,2.8,6.2,6.2,0.0,moderate,True,31.5,82.0,10.59
 eed2fd012fdcf54a9900b143cf207497,Auckland,NZ,2025-05-02,Oceania,Temperate Oceanic,2025,5,May,Friday,Autumn,16.9,12.4,14.8,4.5,3.8,3.8,0.0,moderate,True,13.4,81.0,10.56
@@ -3284,3 +3283,4 @@ c34003785516a6c07503078f6b5d15ef,Auckland,NZ,2026-04-23,Oceania,Temperate Oceani
 62d345236472b40c93145f58db12c216,Auckland,NZ,2026-04-26,Oceania,Temperate Oceanic,2026,4,April,Sunday,Autumn,18.0,9.5,13.5,8.5,0.0,0.0,0.0,dry,False,12.5,86.0,10.77
 29c87db7b887ba27c290396a11c71526,Auckland,NZ,2026-04-27,Oceania,Temperate Oceanic,2026,4,April,Monday,Autumn,18.2,12.9,15.8,5.3,0.4,0.4,0.0,light,True,19.8,77.0,10.73
 e76dede10fc7774b76336d1f42a0fcb3,Auckland,NZ,2026-04-28,Oceania,Temperate Oceanic,2026,4,April,Tuesday,Autumn,18.2,11.9,14.9,6.3,0.5,0.5,0.0,light,True,11.5,87.0,10.7
+d7d069b32ff330268e201988616931e6,Auckland,NZ,2026-04-29,Oceania,Temperate Oceanic,2026,4,April,Wednesday,Autumn,18.5,12.6,15.4,5.9,0.4,0.4,0.0,light,True,7.2,87.0,10.66
