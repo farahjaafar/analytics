@@ -1,0 +1,17 @@
+decision_date,rate_type,old_rate,new_rate,change_bps,context_note
+2022-07-21,deposit_facility,-0.50,0.00,50,First hike since 2011 ending 8 years of negative rates
+2022-09-08,deposit_facility,0.00,0.75,75,Largest single hike in ECB history amid record inflation
+2022-10-27,deposit_facility,0.75,1.50,75,Third consecutive hike as euro area inflation hit 10.6%
+2022-12-15,deposit_facility,1.50,2.00,50,Pace slowed to 50bps as energy prices started easing
+2023-02-02,deposit_facility,2.00,2.50,50,Core inflation remained sticky above 5%
+2023-03-16,deposit_facility,2.50,3.00,50,Hiked despite banking stress from Credit Suisse collapse
+2023-05-04,deposit_facility,3.00,3.25,25,Pace slowed to 25bps as headline inflation fell below 7%
+2023-06-15,deposit_facility,3.25,3.50,25,Signaled more hikes to come despite recession fears
+2023-07-27,deposit_facility,3.50,3.75,25,Ninth consecutive hike bringing rates to highest since 2001
+2023-09-14,deposit_facility,3.75,4.00,25,Final hike of the cycle; signaled rates would stay at peak
+2024-06-06,deposit_facility,4.00,3.75,-25,First cut in nearly 2 years as inflation approached 2% target
+2024-09-12,deposit_facility,3.75,3.50,-25,Second cut as economic growth slowed
+2024-10-17,deposit_facility,3.50,3.25,-25,Third cut as inflation fell below 2% briefly
+2024-12-12,deposit_facility,3.25,3.00,-25,Fourth cut amid weakening eurozone economy
+2025-01-30,deposit_facility,3.00,2.75,-25,Fifth consecutive cut as disinflation continued
+2025-03-06,deposit_facility,2.75,2.50,-25,Sixth cut; rate now at neutral territory

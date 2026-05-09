@@ -5,3 +5,6 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# Personal scratch notes (per-project)
+*.local.md

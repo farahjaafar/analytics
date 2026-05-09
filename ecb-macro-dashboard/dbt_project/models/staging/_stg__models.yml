@@ -1,0 +1,152 @@
+version: 2
+
+models:
+
+  # -------------------------------------------------------------
+  # stg_inflation
+  # -------------------------------------------------------------
+  - name: stg_inflation
+    description: >
+      Cleaned monthly HICP inflation data per country and component.
+      One row per (country_code, period_month, component).
+
+    columns:
+      - name: period_month
+        description: First day of the month the observation refers to (cast from SDMX 'YYYY-MM').
+        tests:
+          - not_null 
+
+      - name: country_code
+        description: ISO country code. 'U2' represents the euro area aggregate.
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['DE', 'FR', 'ES', 'IT', 'NL', 'U2']
+
+      - name: component
+        description: Inflation component (headline, core, energy, food, services, non_energy_goods).
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['headline', 'core', 'energy', 'food', 'services', 'non_energy_goods']
+
+      - name: inflation_rate
+        description: Annual rate of change in percent (e.g., 2.5 = 2.5%).
+        tests:
+          - not_null
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - period_month
+            - country_code
+            - component
+
+  # -------------------------------------------------------------
+  # stg_interest_rates
+  # -------------------------------------------------------------
+  - name: stg_interest_rates
+    description: >
+      ECB key policy rates. Event-driven grain — one row per (rate_type, period_date)
+      ONLY on days the rate changed. Use int_interest_rates_monthly to forward-fill
+      this onto a regular monthly grid.
+    columns:
+      - name: period_date
+        description: Date the rate change took effect.
+        tests:
+          - not_null
+
+      - name: rate_type
+        description: One of main_refinancing, deposit_facility, marginal_lending.
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['main_refinancing', 'deposit_facility', 'marginal_lending']
+
+      - name: rate_value
+        description: Rate in percent (e.g., 4.0 = 4.0%).
+        tests:
+          - not_null
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - period_date
+            - rate_type
+
+  # -------------------------------------------------------------
+  # stg_exchange_rates
+  # -------------------------------------------------------------
+  - name: stg_exchange_rates
+    description: >
+      Daily ECB reference exchange rates vs EUR. One row per (currency_pair, period_date),
+      business days only (no weekends/holidays).
+    columns:
+      - name: period_date
+        description: Business day the rate was published.
+        tests:
+          - not_null
+
+      - name: currency_pair
+        description: Currency pair label (e.g., EUR_USD, EUR_GBP).
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['EUR/GBP', 'EUR/USD', 'EUR/JPY', 'EUR/CHF', 'EUR/PLN']
+
+      - name: exchange_rate
+        description: Units of foreign currency per 1 EUR.
+        tests:
+          - not_null
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - period_date
+            - currency_pair
+
+  # -------------------------------------------------------------
+  # stg_money_supply
+  # -------------------------------------------------------------
+  - name: stg_money_supply
+    description: >
+      Euro area M3 monetary aggregate, annual rate of change.
+      One row per period_month.
+    columns:
+      - name: period_month
+        description: First day of the month the observation refers to.
+        tests:
+          - not_null
+          - unique
+
+      - name: m3_growth_yoy
+        description: Year-over-year growth rate of M3 in percent.
+        tests:
+          - not_null
+
+  # -------------------------------------------------------------
+  # stg_bond_yields
+  # -------------------------------------------------------------
+  - name: stg_bond_yields
+    description: >
+      Euro area government bond yields at 2-year and 10-year maturity.
+      Daily grain — one row per (maturity, period_date), business days only.
+    columns:
+      - name: period_date
+        description: Business day the yield was published.
+        tests:
+          - not_null
+
+      - name: maturity
+        description: Bond maturity (2Y or 10Y).
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['2Y', '10Y']
+
+      - name: yield_pct
+        description: Yield in percent (e.g., 2.5 = 2.5%).
+        tests:
+          - not_null
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns:
+            - period_date
+            - maturity

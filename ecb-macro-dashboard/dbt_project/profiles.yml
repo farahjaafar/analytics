@@ -1,0 +1,12 @@
+# profiles.yml — Database connection settings
+#
+# Tells dbt how to connect to DuckDB. The top-level key ("ecb_macro")
+# must match the "profile:" value in dbt_project.yml.
+
+ecb_macro:
+  target: local #must match "profile" inside dbt_project.yml
+  outputs:
+    local:
+      type: duckdb
+      path: "../data/ecb_analytics.duckdb"
+      threads: 4

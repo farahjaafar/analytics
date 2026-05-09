@@ -1,0 +1,38 @@
+
+name: "ecb_macro"
+version: "1.0.0"
+
+# "profile" must match the top-level key in profiles.yml.
+# If these don't match, dbt can't find its database connection.
+profile: "ecb_macro"
+
+# Where dbt looks for each type of file.
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+# ---------------------------------------------------------------
+# Materializations by layer
+# ---------------------------------------------------------------
+#   models/staging/     → view
+#   models/intermediate/ → view
+#   models/marts/       → table
+# ---------------------------------------------------------------
+models:
+  ecb_macro:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
+
+# Seeds are always materialized as tables (dbt handles this automatically).
+seeds:
+  ecb_macro:
+    +schema: seeds

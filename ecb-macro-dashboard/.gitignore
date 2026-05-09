@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.python-version
+
+# ---------------------------------------------------------------
+# DuckDB database file and raw data
+# ---------------------------------------------------------------
+# The .duckdb file is rebuilt from raw CSVs + dbt models on every run,
+# so there's no reason to version it. Raw CSVs are re-fetchable from the
+# ECB API. If you ever want to commit a small debugging sample, use an
+# override like:  !data/raw/sample_*.csv
+data/ecb_analytics.duckdb
+data/ecb_analytics.duckdb.wal
+data/raw/*.csv
+
+# ---------------------------------------------------------------
+# dbt build artifacts
+# ---------------------------------------------------------------
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+# ---------------------------------------------------------------
+# Evidence.dev (only relevant in Phase 3, but harmless to list now)
+# ---------------------------------------------------------------
+evidence_dashboard/node_modules/
+evidence_dashboard/.evidence/
+evidence_dashboard/build/
+
+# ---------------------------------------------------------------
+# OS / editor junk
+# ---------------------------------------------------------------
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# ---------------------------------------------------------------
+# Documentations
+# ---------------------------------------------------------------
+ecb-macro-dashboard-plan.md
+execution_plan.md

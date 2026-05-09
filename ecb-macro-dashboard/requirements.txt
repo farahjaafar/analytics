@@ -1,0 +1,12 @@
+# Python dependencies for the ECB macro pipeline.
+#
+# Install with:
+#     pip install -r requirements.txt
+#
+# Versions are pinned (==) so the pipeline behaves the same on any machine.
+# If you ever want to upgrade, bump the version here and re-run pip install.
+
+requests==2.31.0       # HTTP library — used to call the ECB Data Portal API
+duckdb==1.1.0          # Embedded analytical database (one-file, no server)
+dbt-core==1.8.0        # dbt transformation engine
+dbt-duckdb==1.8.0      # dbt adapter that connects dbt-core to DuckDB

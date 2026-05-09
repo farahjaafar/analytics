@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+  - name: raw_ecb
+    description: "Raw ECB data loaded from the ECB Data Portal API"
+    schema: raw_ecb
+    tables:
+      - name: inflation
+        description: >
+          HICP inflation rates (annual % change) for all euro area
+          countries and components. Monthly frequency from 2000-01.
+          Granularity: one row per (country, month, component).
+
+      - name: interest_rates
+        description: >
+          ECB key policy rates (Main Refinancing, Deposit Facility,
+          Marginal Lending). Published daily as levels.
+          Granularity: one row per (rate_type, business_day).
+
+      - name: exchange_rates
+        description: >
+          Daily EUR exchange rates against major currencies
+          (USD, GBP, JPY, CHF, PLN). Quoted as units-per-EUR.
+          Granularity: one row per (currency, business_day).
+
+      - name: money_supply
+        description: >
+          Euro area M3 money supply annual growth rate.
+          Monthly frequency from 2000-01.
+          Granularity: one row per month.
+
+      - name: bond_yields
+        description: >
+          Euro area composite government bond yields for 2Y and 10Y
+          maturities. Daily frequency from 2004-09.
+          Granularity: one row per (tenor, business_day).
