@@ -1,0 +1,60 @@
+name: ECB Pipeline CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ecb-macro-dashboard/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'ecb-macro-dashboard/**'
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        working-directory: ecb-macro-dashboard
+        run: pip install -r requirements.txt
+
+      - name: Install dbt packages
+        working-directory: ecb-macro-dashboard/dbt_project
+        run: dbt deps
+
+      - name: Extract and load data
+        working-directory: ecb-macro-dashboard
+        run: python extract/extract_and_load.py
+
+      - name: Run dbt build
+        working-directory: ecb-macro-dashboard/dbt_project
+        run: dbt build
+
+      - name: Export CSVs for dashboard
+        working-directory: ecb-macro-dashboard
+        run: python extract/export_for_evidence.py
+
+      - name: Commit and push updated CSVs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ecb-macro-dashboard/evidence_dashboard/sources/ecb/mart_macro_overview.csv \
+                  ecb-macro-dashboard/evidence_dashboard/sources/ecb/mart_inflation_comparison.csv \
+                  ecb-macro-dashboard/evidence_dashboard/sources/ecb/mart_monetary_policy_timeline.csv \
+                  ecb-macro-dashboard/evidence_dashboard/sources/ecb/mart_currency_strength.csv
+          git diff --cached --quiet || git commit -m "chore: update ECB dashboard data [skip ci]"
+          git push
