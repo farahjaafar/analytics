@@ -14,7 +14,7 @@ export const projects = [
     id: "weather-analytics-pipeline",
     title: "Weather Analytics Pipeline",
     description:
-      "End-to-end ELT pipeline ingesting global weather data for selected cities across multiple continents.",
+      "Tracks weather across selected cities on multiple continents. Sourced from the Open-Meteo API, refreshed daily.",
     tags: ["Python", "DuckDB", "dbt", "Evidence.dev", "GitHub Actions"],
     githubUrl:
       "https://github.com/farahjaafar/analytics/tree/main/weather-analytics-pipeline",
@@ -23,6 +23,23 @@ export const projects = [
       { label: "Cities tracked", value: "9" },
       { label: "Days of history", value: "365" },
       { label: "dbt models", value: "5" },
+      { label: "CI status", value: "Passing" },
+    ],
+    featured: true,
+  },
+  {
+    id: "ecb-macro-dashboard",
+    title: "ECB Macro Dashboard",
+    description:
+      "Tracks euro area inflation, ECB policy rates, the yield curve, and FX. Sourced from ECB SDW and Eurostat APIs, refreshed weekly.",
+    tags: ["Python", "DuckDB", "dbt", "Evidence.dev", "GitHub Actions"],
+    githubUrl:
+      "https://github.com/farahjaafar/analytics/tree/main/ecb-macro-dashboard",
+    liveUrl: "https://ecb-macro-dashboard.vercel.app/",
+    stats: [
+      { label: "Years of history", value: "12" },
+      { label: "Dashboard pages", value: "5" },
+      { label: "dbt models", value: "14" },
       { label: "CI status", value: "Passing" },
     ],
     featured: true,
