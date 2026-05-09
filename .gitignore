@@ -8,3 +8,6 @@ Thumbs.db
 
 # Personal scratch notes (per-project)
 *.local.md
+
+# Claude Code worktrees (local-only)
+.claude/
