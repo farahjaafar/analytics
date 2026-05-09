@@ -56,5 +56,15 @@ jobs:
                   ecb-macro-dashboard/evidence_dashboard/sources/ecb/mart_inflation_comparison.csv \
                   ecb-macro-dashboard/evidence_dashboard/sources/ecb/mart_monetary_policy_timeline.csv \
                   ecb-macro-dashboard/evidence_dashboard/sources/ecb/mart_currency_strength.csv
-          git diff --cached --quiet || git commit -m "chore: update ECB dashboard data [skip ci]"
-          git push
+          if git diff --cached --quiet; then
+            echo "No CSV changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update ECB dashboard data [skip ci]"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            echo "Push attempt $attempt failed (likely concurrent push); retrying..."
+            sleep 5
+          done
+          echo "Push failed after 3 attempts." >&2
+          exit 1
