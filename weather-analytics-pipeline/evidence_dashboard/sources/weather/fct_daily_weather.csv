@@ -1,5 +1,4 @@
 weather_id,city,country_code,date,continent,climate_zone,year,month_number,month_name,day_of_week,season,temp_max_celsius,temp_min_celsius,temp_mean_celsius,temp_range_celsius,precipitation_mm,rain_mm,snowfall_mm,precipitation_category,is_rainy_day,wind_max_kmh,humidity_pct,daylight_hours
-90ad319145feba2c8236307d281f5d34,Berlin,DE,2025-07-17,Europe,Temperate,2025,7,July,Thursday,Summer,19.2,13.8,16.7,5.4,15.3,15.3,0.0,heavy,True,19.5,85.0,16.26
 87f8879c3aaa5486f5a0ea103f630bd9,Berlin,DE,2025-07-18,Europe,Temperate,2025,7,July,Friday,Summer,22.9,16.3,19.4,6.6,0.7,0.7,0.0,light,True,11.5,80.0,16.22
 79dbb6693bbe903c921b4da6ad1b8799,Berlin,DE,2025-07-19,Europe,Temperate,2025,7,July,Saturday,Summer,26.1,15.8,21.4,10.3,0.0,0.0,0.0,dry,False,8.7,72.0,16.18
 4e4e175e036139a4fc1732301ab71db6,Berlin,DE,2025-07-20,Europe,Temperate,2025,7,July,Sunday,Summer,28.9,17.5,23.4,11.4,0.0,0.0,0.0,dry,False,10.9,69.0,16.13
@@ -364,7 +363,7 @@ b24bcd7b9f7e06f349dec34cba3342e0,Berlin,DE,2026-07-11,Europe,Temperate,2026,7,Ju
 9f8a0e0303e16d1c33064bcf2540a110,Berlin,DE,2026-07-14,Europe,Temperate,2026,7,July,Tuesday,Summer,24.8,17.5,20.9,7.3,2.1,2.1,0.0,light,True,15.7,64.0,16.39
 68446dc6949a4fd88323b42d4f0fc9fa,Berlin,DE,2026-07-15,Europe,Temperate,2026,7,July,Wednesday,Summer,25.3,16.0,21.1,9.3,0.1,0.1,0.0,light,True,12.9,53.0,16.35
 20fe21fb32093a7f439d9f4cae062f28,Berlin,DE,2026-07-16,Europe,Temperate,2026,7,July,Thursday,Summer,29.5,16.8,23.3,12.7,2.1,2.1,0.0,light,True,10.7,55.0,16.31
-488eae438e1f3e32f152649e888eb110,London,GB,2025-07-17,Europe,Temperate,2025,7,July,Thursday,Summer,25.8,18.8,22.0,7.0,0.8,0.8,0.0,light,True,10.7,63.0,16.09
+5a37ee2f043ec0720680fb2f7b0fe994,Berlin,DE,2026-07-17,Europe,Temperate,2026,7,July,Friday,Summer,29.4,19.9,23.2,9.5,4.3,4.3,0.0,moderate,True,14.1,68.0,16.27
 c25cc6cb26db0789a03e7c94efe7ea96,London,GB,2025-07-18,Europe,Temperate,2025,7,July,Friday,Summer,29.4,18.2,23.6,11.2,0.0,0.0,0.0,dry,False,12.3,59.0,16.05
 e7bbdd759fe950779975b61e69ec89b2,London,GB,2025-07-19,Europe,Temperate,2025,7,July,Saturday,Summer,22.5,17.9,20.2,4.6,16.1,16.1,0.0,heavy,True,10.2,76.0,16.01
 1e05290fc9e08942a447c797ae4cdd7b,London,GB,2025-07-20,Europe,Temperate,2025,7,July,Sunday,Summer,20.4,16.1,18.2,4.3,2.8,2.8,0.0,moderate,True,17.2,79.0,15.97
@@ -729,7 +728,7 @@ ac8d20c0aba87d14f15a03e23151342b,London,GB,2026-07-13,Europe,Temperate,2026,7,Ju
 8e8ff0575303d697017433d2500f7782,London,GB,2026-07-14,Europe,Temperate,2026,7,July,Tuesday,Summer,29.6,16.1,22.3,13.5,0.0,0.0,0.0,dry,False,16.5,61.0,16.21
 c75ea94b5f5b5e2415a1dcc499f600dc,London,GB,2026-07-15,Europe,Temperate,2026,7,July,Wednesday,Summer,28.4,17.4,22.9,11.0,0.0,0.0,0.0,dry,False,16.0,58.0,16.17
 a61902e16c4e826c67bed54e0bf457df,London,GB,2026-07-16,Europe,Temperate,2026,7,July,Thursday,Summer,28.5,16.5,22.4,12.0,0.0,0.0,0.0,dry,False,15.0,55.0,16.14
-e2ab25f5cb3753e760d5323bed4f81a9,New York,US,2025-07-17,North America,Temperate,2025,7,July,Thursday,Summer,33.5,23.8,28.2,9.7,1.9,1.9,0.0,light,True,18.6,76.0,14.75
+b0eab72f706c7a45cd5845d51a54f21f,London,GB,2026-07-17,Europe,Temperate,2026,7,July,Friday,Summer,27.8,15.8,22.1,12.0,0.0,0.0,0.0,dry,False,13.7,55.0,16.1
 c1a140317e009ca6966ba11dd84ce4f5,New York,US,2025-07-18,North America,Temperate,2025,7,July,Friday,Summer,29.8,22.4,26.2,7.4,0.0,0.0,0.0,dry,False,15.0,54.0,14.72
 9383b1f0470c6a89770ded02a1df1028,New York,US,2025-07-19,North America,Temperate,2025,7,July,Saturday,Summer,28.3,21.1,24.9,7.2,0.0,0.0,0.0,dry,False,14.0,63.0,14.7
 6315c3fa643573a53953f0adf3895f18,New York,US,2025-07-20,North America,Temperate,2025,7,July,Sunday,Summer,34.1,22.3,27.9,11.8,4.1,4.1,0.0,moderate,True,15.3,69.0,14.67
@@ -1094,7 +1093,7 @@ fbe4a873ad6d7052c42f3e9e93215fa4,New York,US,2026-07-13,North America,Temperate,
 abdb63b29272a926943aa3298d92a80a,New York,US,2026-07-14,North America,Temperate,2026,7,July,Tuesday,Summer,34.2,21.4,28.3,12.8,0.0,0.0,0.0,dry,False,18.7,53.0,14.83
 7a52ee31d938ed22a26c6c947f45dc13,New York,US,2026-07-15,North America,Temperate,2026,7,July,Wednesday,Summer,36.9,25.5,30.2,11.4,0.7,0.7,0.0,light,True,19.3,56.0,14.8
 96d7db604788f77a9b1d5d477b5f0c8f,New York,US,2026-07-16,North America,Temperate,2026,7,July,Thursday,Summer,33.2,23.5,27.9,9.7,0.4,0.4,0.0,light,True,19.6,54.0,14.78
-59468e390323cc29dc23f3ab39162dd2,Tokyo,JP,2025-07-17,Asia,Subtropical,2025,7,July,Thursday,Summer,29.8,24.5,26.9,5.3,0.9,0.9,0.0,light,True,19.9,79.0,14.3
+fc0fb2d866f5129cffa25b56f769e8fb,New York,US,2026-07-17,North America,Temperate,2026,7,July,Friday,Summer,31.3,21.7,26.6,9.6,0.0,0.0,0.0,dry,False,12.3,45.0,14.76
 cfa0b316b677918408d3b74b2a72d5a8,Tokyo,JP,2025-07-18,Asia,Subtropical,2025,7,July,Friday,Summer,30.4,24.4,27.0,6.0,0.0,0.0,0.0,dry,False,15.7,78.0,14.28
 90cf77129a255a6750a0072d407d2392,Tokyo,JP,2025-07-19,Asia,Subtropical,2025,7,July,Saturday,Summer,31.0,24.0,27.2,7.0,0.0,0.0,0.0,dry,False,13.4,76.0,14.26
 e82755e36633670b280d488ba505e08b,Tokyo,JP,2025-07-20,Asia,Subtropical,2025,7,July,Sunday,Summer,31.7,24.3,27.9,7.4,0.0,0.0,0.0,dry,False,11.3,76.0,14.24
@@ -1459,7 +1458,7 @@ ac75530b10ba7219e8de6c0c758739bf,Tokyo,JP,2026-07-12,Asia,Subtropical,2026,7,Jul
 82e2299ee6a839c58d4691d07064a0b5,Tokyo,JP,2026-07-14,Asia,Subtropical,2026,7,July,Tuesday,Summer,36.1,24.5,30.2,11.6,0.0,0.0,0.0,dry,False,12.5,65.0,14.36
 4e9837cad3b9f1c57e6e717bd00e4753,Tokyo,JP,2026-07-15,Asia,Subtropical,2026,7,July,Wednesday,Summer,35.4,26.8,30.7,8.6,0.5,0.5,0.0,light,True,16.8,68.0,14.35
 1410b4aef7b7ed2b0b57a1e267f1d1a7,Tokyo,JP,2026-07-16,Asia,Subtropical,2026,7,July,Thursday,Summer,36.7,27.5,31.5,9.2,2.7,2.7,0.0,moderate,True,12.6,64.0,14.33
-0b98ad243830e8d3bf4fc3bd63e79c80,Cape Town,ZA,2025-07-17,Africa,Mediterranean,2025,7,July,Thursday,Winter,15.6,12.2,13.7,3.4,9.7,9.7,0.0,heavy,True,23.3,83.0,10.14
+9356545f894468c8bb9c91613d0266ca,Tokyo,JP,2026-07-17,Asia,Subtropical,2026,7,July,Friday,Summer,32.4,25.7,28.3,6.7,24.4,24.4,0.0,heavy,True,11.4,80.0,14.31
 53d7da5b54b936da56a638a4e3b48fbb,Cape Town,ZA,2025-07-18,Africa,Mediterranean,2025,7,July,Friday,Winter,15.4,9.4,12.2,6.0,0.6,0.6,0.0,light,True,13.6,78.0,10.16
 7fe46f2c0cbc0a4484c0f81a613606d6,Cape Town,ZA,2025-07-19,Africa,Mediterranean,2025,7,July,Saturday,Winter,18.5,7.6,12.3,10.9,0.0,0.0,0.0,dry,False,11.1,76.0,10.17
 b3afea716bbf8cd50bfa227cdfda433c,Cape Town,ZA,2025-07-20,Africa,Mediterranean,2025,7,July,Sunday,Winter,17.2,8.8,12.4,8.4,0.0,0.0,0.0,dry,False,9.2,84.0,10.19
@@ -1824,7 +1823,7 @@ fadc88a199d8d84766d3a94e7550a645,Cape Town,ZA,2026-07-13,Africa,Mediterranean,20
 73a7ca07292c87ca9a7230f7481edeea,Cape Town,ZA,2026-07-14,Africa,Mediterranean,2026,7,July,Tuesday,Winter,15.2,6.8,10.9,8.4,0.2,0.2,0.0,light,True,12.4,93.0,10.08
 4262a27e2c300c122a4f5d8b3d7b7c3b,Cape Town,ZA,2026-07-15,Africa,Mediterranean,2026,7,July,Wednesday,Winter,15.7,11.1,13.0,4.6,0.8,0.8,0.0,light,True,11.1,93.0,10.1
 f92b12794ffd7512e2d0a44cb253339b,Cape Town,ZA,2026-07-16,Africa,Mediterranean,2026,7,July,Thursday,Winter,18.3,10.0,13.1,8.3,0.0,0.0,0.0,dry,False,4.5,94.0,10.12
-c2bfe220204a5abaee97953c3e0a7c42,Sydney,AU,2025-07-17,Oceania,Subtropical,2025,7,July,Thursday,Winter,15.5,4.3,9.3,11.2,0.0,0.0,0.0,dry,False,12.2,75.0,10.14
+7c5dc6fdc01ebe40769fc99bcf43e18e,Cape Town,ZA,2026-07-17,Africa,Mediterranean,2026,7,July,Friday,Winter,18.4,11.6,14.2,6.8,0.0,0.0,0.0,dry,False,5.3,93.0,10.13
 5b14c0a9638cb8dfe1d9049639e30c76,Sydney,AU,2025-07-18,Oceania,Subtropical,2025,7,July,Friday,Winter,14.6,7.2,11.3,7.4,0.5,0.5,0.0,light,True,21.5,71.0,10.16
 6e16a7d1f62d207e142f2c4cb2e92ae9,Sydney,AU,2025-07-19,Oceania,Subtropical,2025,7,July,Saturday,Winter,16.6,5.8,10.3,10.8,0.0,0.0,0.0,dry,False,11.7,72.0,10.18
 158617d5a7f3148054638b83a550244b,Sydney,AU,2025-07-20,Oceania,Subtropical,2025,7,July,Sunday,Winter,17.0,5.5,11.2,11.5,0.1,0.1,0.0,light,True,15.7,69.0,10.2
@@ -2189,7 +2188,7 @@ f22148faaca5d6017e908decc511efd7,Sydney,AU,2026-07-13,Oceania,Subtropical,2026,7
 53b56c91d6da7c9bd2598701c313adaf,Sydney,AU,2026-07-14,Oceania,Subtropical,2026,7,July,Tuesday,Winter,18.5,8.6,13.0,9.9,0.0,0.0,0.0,dry,False,19.3,65.0,10.09
 034b57b4785e5841353b2ac0a79637bd,Sydney,AU,2026-07-15,Oceania,Subtropical,2026,7,July,Wednesday,Winter,15.4,10.1,12.4,5.3,0.0,0.0,0.0,dry,False,18.1,67.0,10.1
 2aa4f083b045b00fc737663796afb56b,Sydney,AU,2026-07-16,Oceania,Subtropical,2026,7,July,Thursday,Winter,15.9,10.3,13.2,5.6,6.6,6.6,0.0,moderate,True,23.9,78.0,10.12
-0c77ca628c7ffee34fd848d14ac75d1b,São Paulo,BR,2025-07-17,South America,Tropical,2025,7,July,Thursday,Winter,23.8,10.4,17.6,13.4,0.0,0.0,0.0,dry,False,13.4,48.0,10.84
+3cb0a5e6121b90887ffa890108acd9f6,Sydney,AU,2026-07-17,Oceania,Subtropical,2026,7,July,Friday,Winter,16.4,12.2,13.7,4.2,7.5,7.5,0.0,moderate,True,13.7,91.0,10.14
 977a13af4f42dc1249f13750eab0a703,São Paulo,BR,2025-07-18,South America,Tropical,2025,7,July,Friday,Winter,24.0,13.6,18.1,10.4,0.0,0.0,0.0,dry,False,20.2,57.0,10.86
 dba74d9953e48442a3b2403d2b3da75e,São Paulo,BR,2025-07-19,South America,Tropical,2025,7,July,Saturday,Winter,20.5,10.3,14.4,10.2,0.0,0.0,0.0,dry,False,9.3,68.0,10.87
 e49d6e90c4bf13500611b5cfbb10480c,São Paulo,BR,2025-07-20,South America,Tropical,2025,7,July,Sunday,Winter,21.2,9.2,14.3,12.0,0.0,0.0,0.0,dry,False,9.4,76.0,10.88
@@ -2554,7 +2553,7 @@ b8e2e964dae123ab962320edb40c626a,São Paulo,BR,2026-07-07,South America,Tropical
 f297fa452306641da37329d81e25d758,São Paulo,BR,2026-07-14,South America,Tropical,2026,7,July,Tuesday,Winter,18.0,9.1,12.7,8.9,0.1,0.1,0.0,light,True,13.3,79.0,10.81
 c938a4106b85b61114742b3ac36c066b,São Paulo,BR,2026-07-15,South America,Tropical,2026,7,July,Wednesday,Winter,21.6,9.6,14.6,12.0,0.0,0.0,0.0,dry,False,12.0,72.0,10.82
 38ee89f2742ae5d5e371f545c243f452,São Paulo,BR,2026-07-16,South America,Tropical,2026,7,July,Thursday,Winter,24.9,8.9,16.5,16.0,0.0,0.0,0.0,dry,False,9.1,64.0,10.83
-36256a7ad1ccacdbfe518add658cd970,Kuala Lumpur,MY,2025-07-17,Asia,Tropical,2025,7,July,Thursday,Summer,36.4,26.8,30.9,9.6,0.0,0.0,0.0,dry,False,10.5,53.0,12.28
+2daedb441ad4a05b45f1e827d7c63518,São Paulo,BR,2026-07-17,South America,Tropical,2026,7,July,Friday,Winter,24.4,12.1,17.5,12.3,0.0,0.0,0.0,dry,False,12.6,51.0,10.84
 ba79414e9968fc434cbaf01fe6fe55f8,Kuala Lumpur,MY,2025-07-18,Asia,Tropical,2025,7,July,Friday,Summer,37.1,25.3,31.0,11.8,0.0,0.0,0.0,dry,False,13.0,50.0,12.28
 d4b485bc182f76b7f9c0e647fe55a019,Kuala Lumpur,MY,2025-07-19,Asia,Tropical,2025,7,July,Saturday,Summer,37.0,26.4,31.4,10.6,0.0,0.0,0.0,dry,False,17.0,47.0,12.28
 c831c27157a6d1da68e1d65e6365f63b,Kuala Lumpur,MY,2025-07-20,Asia,Tropical,2025,7,July,Sunday,Summer,36.3,26.7,31.2,9.6,0.0,0.0,0.0,dry,False,17.0,53.0,12.28
@@ -2919,7 +2918,7 @@ c2d10953b3439de3f11930a069d33d60,Kuala Lumpur,MY,2026-07-13,Asia,Tropical,2026,7
 66e63cfdb785022b8ca33a3a0092fdcb,Kuala Lumpur,MY,2026-07-14,Asia,Tropical,2026,7,July,Tuesday,Summer,33.3,25.5,29.2,7.8,1.3,1.3,0.0,light,True,11.6,73.0,12.29
 57c312492a85ea611c363fbae6885ca1,Kuala Lumpur,MY,2026-07-15,Asia,Tropical,2026,7,July,Wednesday,Summer,34.2,25.7,29.7,8.5,1.0,1.0,0.0,light,True,10.9,70.0,12.28
 7ec7f428f914a92e8d7ee9fda533d93d,Kuala Lumpur,MY,2026-07-16,Asia,Tropical,2026,7,July,Thursday,Summer,33.5,26.1,29.5,7.4,1.4,1.4,0.0,light,True,9.4,73.0,12.28
-7b3243261361a0bb71e839cd4e1098c7,Auckland,NZ,2025-07-17,Oceania,Temperate Oceanic,2025,7,July,Thursday,Winter,14.1,10.4,12.1,3.7,30.1,30.1,0.0,heavy,True,28.2,89.0,9.9
+cdea30723175a9cf4a0b4c564c435d0c,Kuala Lumpur,MY,2026-07-17,Asia,Tropical,2026,7,July,Friday,Summer,33.5,25.0,28.1,8.5,12.4,12.4,0.0,heavy,True,12.2,83.0,12.28
 17023bd5e4465d65059af1526f140762,Auckland,NZ,2025-07-18,Oceania,Temperate Oceanic,2025,7,July,Friday,Winter,14.1,10.4,11.8,3.7,1.6,1.6,0.0,light,True,25.1,76.0,9.92
 a86205097acfab3804966056ade8f37d,Auckland,NZ,2025-07-19,Oceania,Temperate Oceanic,2025,7,July,Saturday,Winter,14.1,7.3,10.5,6.8,0.3,0.3,0.0,light,True,9.2,82.0,9.94
 6e27dbe8cf10aa7a5a72f96a0ada8c59,Auckland,NZ,2025-07-20,Oceania,Temperate Oceanic,2025,7,July,Sunday,Winter,13.6,7.5,9.9,6.1,1.3,1.3,0.0,light,True,12.1,87.0,9.97
@@ -3284,3 +3283,4 @@ b95176e28c3fd0219b9708182f59b03a,Auckland,NZ,2026-07-10,Oceania,Temperate Oceani
 8e3e0ed3c606cf2d6637eebf43d26a5d,Auckland,NZ,2026-07-14,Oceania,Temperate Oceanic,2026,7,July,Tuesday,Winter,17.3,9.6,13.1,7.7,3.4,3.4,0.0,moderate,True,20.1,86.0,9.84
 7c8bff816f1e7a2b072cba7a86bc6f93,Auckland,NZ,2026-07-15,Oceania,Temperate Oceanic,2026,7,July,Wednesday,Winter,15.7,8.0,11.0,7.7,0.7,0.7,0.0,light,True,10.0,95.0,9.86
 9f30f53bd4a79bc6978daaf79234cd0f,Auckland,NZ,2026-07-16,Oceania,Temperate Oceanic,2026,7,July,Thursday,Winter,16.5,8.5,12.0,8.0,0.4,0.4,0.0,light,True,12.8,89.0,9.88
+9645feec52d32fe0cf3abadf5362eb26,Auckland,NZ,2026-07-17,Oceania,Temperate Oceanic,2026,7,July,Friday,Winter,15.3,11.2,12.9,4.1,0.2,0.2,0.0,light,True,17.2,79.0,9.9
