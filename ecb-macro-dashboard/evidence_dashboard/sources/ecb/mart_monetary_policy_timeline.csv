@@ -1,17 +1,17 @@
 decision_date,rate_type,old_rate,new_rate,change_bps,context_note,headline_inflation,core_inflation,yield_curve_spread,is_inverted,eur_usd,m3_growth_yoy
-2022-07-21,deposit_facility,-0.5,0.0,50,First hike since 2011 ending 8 years of negative rates,8.9,4.0,0.7991030077417802,false,1.0178904761904761,5.756951903904284
-2022-09-08,deposit_facility,0.0,0.75,75,Largest single hike in ECB history amid record inflation,9.9,4.8,0.45353401639919677,false,0.9903772727272728,5.929470924360736
-2022-10-27,deposit_facility,0.75,1.5,75,Third consecutive hike as euro area inflation hit 10.6%,10.6,5.0,0.45737413184957987,false,0.9825666666666667,5.00036510629851
-2022-12-15,deposit_facility,1.5,2.0,50,Pace slowed to 50bps as energy prices started easing,9.2,5.2,-0.03694641349085659,true,1.0588809523809526,3.7654694391248134
-2023-02-02,deposit_facility,2.0,2.5,50,Core inflation remained sticky above 5%,8.5,5.6,-0.24269120324977633,true,1.07151,2.4317600802107986
-2023-03-16,deposit_facility,2.5,3.0,50,Hiked despite banking stress from Credit Suisse collapse,6.9,5.7,-0.2552770292597075,true,1.0705826086956522,1.945244703338167
-2023-05-04,deposit_facility,3.0,3.25,25,Pace slowed to 25bps as headline inflation fell below 7%,6.1,5.3,-0.1932559107967018,true,1.08675,0.9546198322582189
-2023-06-15,deposit_facility,3.25,3.5,25,Signaled more hikes to come despite recession fears,5.5,5.5,-0.46381207348181874,true,1.0839863636363638,0.46926104830258275
-2023-07-27,deposit_facility,3.5,3.75,25,Ninth consecutive hike bringing rates to highest since 2001,5.3,5.5,-0.5415363991190474,true,1.1058142857142859,-0.21962824659171876
-2023-09-14,deposit_facility,3.75,4.0,25,Final hike of the cycle; signaled rates would stay at peak,4.3,4.5,-0.3461937124999994,true,1.0683809523809522,-1.2032054226915223
-2024-06-06,deposit_facility,4.0,3.75,-25,First cut in nearly 2 years as inflation approached 2% target,2.5,2.9,-0.32160823698999996,true,1.0759,2.209500164946032
-2024-09-12,deposit_facility,3.75,3.5,-25,Second cut as economic growth slowed,1.7,2.7,0.10253239502857081,false,1.1105999999999998,3.2149638197328967
-2024-10-17,deposit_facility,3.5,3.25,-25,Third cut as inflation fell below 2% briefly,2.0,2.7,0.25091213761304365,false,1.0904347826086958,3.4041339505741064
-2024-12-12,deposit_facility,3.25,3.0,-25,Fourth cut amid weakening eurozone economy,2.4,2.7,0.3221692552578952,false,1.047875,3.629911552732956
-2025-01-30,deposit_facility,3.0,2.75,-25,Fifth consecutive cut as disinflation continued,2.5,2.7,0.426131585190908,false,1.0353727272727273,3.6578410429676245
-2025-03-06,deposit_facility,2.75,2.5,-25,Sixth cut; rate now at neutral territory,2.2,2.4,0.7304395024285708,false,1.0806809523809524,3.694093535032983
+2022-07-21,deposit_facility,-0.5,0.0,50,First hike since 2011 ending 8 years of negative rates,8.9,4.0,0.7991030077417802,false,1.0178904761904761,5.770508879453473
+2022-09-08,deposit_facility,0.0,0.75,75,Largest single hike in ECB history amid record inflation,9.9,4.8,0.45353401639919677,false,0.9903772727272728,5.923198864131751
+2022-10-27,deposit_facility,0.75,1.5,75,Third consecutive hike as euro area inflation hit 10.6%,10.6,5.0,0.45737413184957987,false,0.9825666666666667,4.988132174667448
+2022-12-15,deposit_facility,1.5,2.0,50,Pace slowed to 50bps as energy prices started easing,9.2,5.2,-0.03694641349085659,true,1.0588809523809526,3.761312542888584
+2023-02-02,deposit_facility,2.0,2.5,50,Core inflation remained sticky above 5%,8.5,5.6,-0.24269120324977633,true,1.07151,2.4305161967888456
+2023-03-16,deposit_facility,2.5,3.0,50,Hiked despite banking stress from Credit Suisse collapse,6.9,5.7,-0.2552770292597075,true,1.0705826086956522,1.9168347289926002
+2023-05-04,deposit_facility,3.0,3.25,25,Pace slowed to 25bps as headline inflation fell below 7%,6.1,5.3,-0.1932559107967018,true,1.08675,0.9584613868246938
+2023-06-15,deposit_facility,3.25,3.5,25,Signaled more hikes to come despite recession fears,5.5,5.5,-0.46381207348181874,true,1.0839863636363638,0.4547855140288215
+2023-07-27,deposit_facility,3.5,3.75,25,Ninth consecutive hike bringing rates to highest since 2001,5.3,5.5,-0.5415363991190474,true,1.1058142857142859,-0.22402205936019604
+2023-09-14,deposit_facility,3.75,4.0,25,Final hike of the cycle; signaled rates would stay at peak,4.3,4.5,-0.3461937124999994,true,1.0683809523809522,-1.1909168110716961
+2024-06-06,deposit_facility,4.0,3.75,-25,First cut in nearly 2 years as inflation approached 2% target,2.5,2.9,-0.32160823698999996,true,1.0759,2.2237568117512208
+2024-09-12,deposit_facility,3.75,3.5,-25,Second cut as economic growth slowed,1.7,2.7,0.10253239502857081,false,1.1105999999999998,3.221025518526055
+2024-10-17,deposit_facility,3.5,3.25,-25,Third cut as inflation fell below 2% briefly,2.0,2.7,0.25091213761304365,false,1.0904347826086958,3.4141639631712684
+2024-12-12,deposit_facility,3.25,3.0,-25,Fourth cut amid weakening eurozone economy,2.4,2.7,0.3221692552578952,false,1.047875,3.611836759702025
+2025-01-30,deposit_facility,3.0,2.75,-25,Fifth consecutive cut as disinflation continued,2.5,2.7,0.426131585190908,false,1.0353727272727273,3.6519491000376103
+2025-03-06,deposit_facility,2.75,2.5,-25,Sixth cut; rate now at neutral territory,2.2,2.4,0.7304395024285708,false,1.0806809523809524,3.6789842732503963
