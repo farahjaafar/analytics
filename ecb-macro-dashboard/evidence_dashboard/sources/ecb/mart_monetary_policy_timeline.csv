@@ -13,5 +13,5 @@ decision_date,rate_type,old_rate,new_rate,change_bps,context_note,headline_infla
 2024-09-12,deposit_facility,3.75,3.5,-25,Second cut as economic growth slowed,1.7,2.7,0.10253239502857081,false,1.1105999999999998,3.221025518526055
 2024-10-17,deposit_facility,3.5,3.25,-25,Third cut as inflation fell below 2% briefly,2.0,2.7,0.25091213761304365,false,1.0904347826086958,3.4141639631712684
 2024-12-12,deposit_facility,3.25,3.0,-25,Fourth cut amid weakening eurozone economy,2.4,2.7,0.3221692552578952,false,1.047875,3.611836759702025
-2025-01-30,deposit_facility,3.0,2.75,-25,Fifth consecutive cut as disinflation continued,2.5,2.7,0.426131585190908,false,1.0353727272727273,3.6519491000376103
-2025-03-06,deposit_facility,2.75,2.5,-25,Sixth cut; rate now at neutral territory,2.2,2.4,0.7304395024285708,false,1.0806809523809524,3.6789842732503963
+2025-01-30,deposit_facility,3.0,2.75,-25,Fifth consecutive cut as disinflation continued,2.5,2.7,0.426131585190908,false,1.0353727272727273,3.651945384789723
+2025-03-06,deposit_facility,2.75,2.5,-25,Sixth cut; rate now at neutral territory,2.2,2.4,0.7304395024285708,false,1.0806809523809524,3.678986962925057
